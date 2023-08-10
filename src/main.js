@@ -16,7 +16,6 @@ const pinia = createPinia();
 createApp(App).use(router).use(pinia).mount("#app");
 
 /* Init Pinia stores */
-
 const mainStore = useMainStore(pinia);
 const styleStore = useStyleStore(pinia);
 
